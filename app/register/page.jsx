@@ -4,7 +4,7 @@ import "../../styles/Register.scss"
 import {FcGoogle} from 'react-icons/fc'
 import { signIn } from "next-auth/react";
 import { useState } from 'react'
-import { useRouter } from '@node_modules/next/navigation'
+import { useRouter } from "next/navigation";
 import { CldUploadButton } from '@node_modules/next-cloudinary/dist';
 
 const Register = () => {
