@@ -5,7 +5,7 @@ import {FcGoogle} from 'react-icons/fc'
 import { signIn } from "next-auth/react";
 import { useState } from 'react'
 import { useRouter } from "next/navigation";
-import { CldUploadButton } from '@node_modules/next-cloudinary/dist';
+import { CldUploadButton } from "next-cloudinary";
 
 const Register = () => {
   const router = useRouter();

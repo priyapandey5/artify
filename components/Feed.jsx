@@ -1,6 +1,6 @@
 "use client";
 
-import { categories } from "@data";
+import { categories } from "../data";
 import WorkList from "./WorkList";
 import { useEffect, useState } from "react";
 import "@styles/Categories.scss";
