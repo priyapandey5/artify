@@ -2,9 +2,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@lib/*": ["lib/*"],
-      "@components/*": ["components/*"],
-       "@styles/*": ["styles/*"]
+      "@data": ["data.js"],
+      "@models/*": ["models/*"],
+      "@mongodb/*": ["mongodb/*"],
+      "@components/*": ["components/*"]
     }
   }
 }
